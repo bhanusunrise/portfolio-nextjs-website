@@ -1,10 +1,7 @@
-import NavBar from "../components/navbar/navbar"
-
 export default function Page() {
   return<> 
   <div className="container mx-auto px-4">
-    <NavBar/>
-    <h1>Hello, Next.js!</h1>
+      return <h1 className="text-3xl font-bold underline">Hello, Next.js!</h1>
   </div>
   </>
 }
