@@ -1,3 +1,5 @@
+import { PAGE_BASE_URL } from '@/app/lib/contants'
+import Link from 'next/link'
 import React from 'react'
 
 export default function NavBar() {
@@ -10,43 +12,36 @@ export default function NavBar() {
                       <div className="hidden sm:ml-6 sm:block">
                         <div className="flex space-x-4">
                           {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
-                          <a
-                           href="#"
+                          <Link
+                           href={PAGE_BASE_URL + "home"} 
                            className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white"
                            aria-current="page"
                           >
                             Home
-                         </a>
-                          <a
-                           href="#"
+                         </Link>
+                          <Link
+                           href={PAGE_BASE_URL + "about_me"} 
                            className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                          >
                            About Me
-                          </a>
-                         <a
-                            href="#"
-                           className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-                         >
-                           Academic Background
-                          </a>
-                         <a
-                            href="#"
+                          </Link>
+                         <Link
+                            href={PAGE_BASE_URL + "projects"} 
                             className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                           >
                                         Projects
-                        </a>
-                         <a
-                           href="#"
+                        </Link>
+                         <Link
+                           href={PAGE_BASE_URL + "achievements"} 
                            className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-                         >
-                           Extra Curricular Activities
-                         </a>
-                         <a
-                           href="#"
+                         >Achievements
+                         </Link>
+                         <Link
+                           href={PAGE_BASE_URL + "contact_me"} 
                            className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                           >
                            Contact Me
-                         </a>
+                         </Link>
                        </div>
                       </div>
                    </div>
@@ -56,43 +51,37 @@ export default function NavBar() {
                {/* Mobile menu */}
                <div className="sm:hidden" id="mobile-menu">
                  <div className="space-y-1 px-2 pb-3 pt-2">
-                   <a
+                   <Link
                       href="#"
                       className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white"
                       aria-current="page"
                    >
                      Home
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#"
                       className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                     >
                       About Me
-                   </a>
-                    <a
-                      href="#"
-                      className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-                    >
-                      Academic Background
-                    </a>
-                    <a
+                   </Link>
+                    <Link
                       href="#"
                       className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                     >
                       Projects
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                       href="#"
                       className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                     >
-                      Extra Curricular Activities
-                   </a>
-                    <a
+                      Achievements
+                   </Link>
+                    <Link
                       href="#"
                       className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                  >
                      Contact Me
-                    </a>
+                    </Link>
                   </div>
                </div>
              </nav>

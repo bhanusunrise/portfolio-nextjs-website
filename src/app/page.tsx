@@ -1,9 +1,7 @@
-import NavBar from "@/components/navbar/navbar";
+import PageLayout from "./website/page";
 
 export default function Page() {
   return<> 
-<div className="container-fluid">
-  <NavBar />
-</div>
+      <PageLayout/>
   </>
 }
