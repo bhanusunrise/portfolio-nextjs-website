@@ -1,5 +1,6 @@
 import { AIESECER_DESCRIPTION, AIESECER_TITLE, HELLO_TITLE, HOME_DESCRIPTION, INTERN_DESCRIPTION, INTERN_TITLE, PASSIONATE_DESCRIPTION, PASSIONATE_TITLE, UNDERGRADUATE_DESCRIPTION, UNDERGRADUATE_TITLE } from "@/app/lib/contants";
 import ImageSection from "@/components/image_section/image_section";
+import SeeMoreBtn from "@/components/see_more_button/see_more_btn";
 import TextSection from "@/components/text_section/text-section";
 import TitleSection from "@/components/title_section/title_section";
 
@@ -47,7 +48,17 @@ export default function HomePage() {
           <hr/>
           <br/>
           <TextSection title = {AIESECER_TITLE} subtitle = {AIESECER_DESCRIPTION} />
+          <br/>
+          <hr/>
+          <br/>
+          <br/>
+          <SeeMoreBtn text = "See More" link = "/website/about_me" />
         </div>
+      </div>
+
+      {/** Projects Section */}
+      <div className="flex flex-col md:flex-row sm:flex-row pb-40 justify-center items-center">
+        <TitleSection title = "Projects" />
       </div>
     </>
   );
