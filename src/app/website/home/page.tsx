@@ -73,7 +73,7 @@ export default function HomePage() {
             link = "https://github.com/bhanusunrise/Akuna-Weather-App"/>
 
         </div>
-        <div className="flex-1 flex justify-center items-center pl-5">
+        <div className="flex-1 flex justify-center items-center ml-5">
           <ProjectSection 
             title = "NLDS Hackathon Dashboard" 
             description = "NLDS is organized by AIESEC in Sri Lanka. This dashboard was developed by using Streamlit and Google Sheets API." 
@@ -84,7 +84,7 @@ export default function HomePage() {
             link = "https://github.com/AIESEC-LK/nlds-marathon"/>
 
         </div>
-        <div className="flex-1 flex justify-center items-center pr-20 pl-5">
+        <div className="flex-1 flex justify-center items-center pr-20 ml-5">
           <ProjectSection 
             title = "Gamini Builders Website" 
             description = "Gamini Builders was my first client for web development. I developed this website using PHP, CSS, HTML and JavaScript." 
@@ -108,7 +108,7 @@ export default function HomePage() {
             link="https://github.com/bhanusunrise/Global-Expansia-1.0"/>
 
         </div>
-        <div className="flex-1 flex justify-center items-center pl-5">
+        <div className="flex-1 flex justify-center items-center ml-5">
           <ProjectSection 
             title = "Exchange Marathon Dashboard" 
             description = "Exchange marathon is an event which organized by AIESEC International to rank their exchanges rates of each loacl committees." 
@@ -120,7 +120,7 @@ export default function HomePage() {
             
 
         </div>
-        <div className="flex-1 flex justify-center items-center pr-20 pl-5">
+        <div className="flex-1 flex justify-center items-center pr-20 ml-5">
           <ProjectSection 
             title = "Business Website" 
             description = "Bhanu Sunrise Solutions is my freelancing company. I developed this website using PHP, CSS, HTML, MySQL and JavaScript." 
