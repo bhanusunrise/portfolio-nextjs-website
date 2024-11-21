@@ -135,6 +135,14 @@ export default function HomePage() {
       <div className="flex flex-col md:flex-row sm:flex-row pb-40 justify-center items-center">
           <SeeMoreBtn text = "View All Projects" link = "/website/projects" />
       </div>
+
+      <div className="flex flex-col md:flex-row sm:flex-row justify-center items-center">
+          <TitleSection title = "Achivements" />
+      </div>
+
+      <div className="flex flex-col md:flex-row sm:flex-row justify-center items-center">
+          <div className="flex-1 flex justify-center items-center pl-20"></div>
+      </div>
       
     </>
   );

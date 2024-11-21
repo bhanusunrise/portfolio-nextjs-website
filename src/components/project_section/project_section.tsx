@@ -11,7 +11,7 @@ interface ProjectSectionProps {
     link: string;
 }
 
-export default function ProjectSection({ title, description, image_link, image_alt, badge_names, badge_colors, link }: ProjectSectionProps) { 
+export default function columnProjectSection({ title, description, image_link, image_alt, badge_names, badge_colors, link }: ProjectSectionProps) { 
     return (
         <>
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
