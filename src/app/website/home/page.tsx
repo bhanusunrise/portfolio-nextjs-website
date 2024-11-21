@@ -111,7 +111,7 @@ export default function HomePage() {
         <div className="flex-1 flex justify-center items-center ml-5">
           <ProjectSection 
             title = "Marathon Dashboard" 
-            description = "Exchange marathon is an event which organized by AIESEC International to rank their exchanges rates of each loacl committees." 
+            description = "Exchange marathon is an event which organized by AIESEC International to rank their local committees." 
             image_link = "/projects/global_hackathon.webp" 
             image_alt = "Project 2" 
             badge_names={["Streamlit", "Google Sheets API", "Python"]}
