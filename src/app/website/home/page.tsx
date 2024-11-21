@@ -110,7 +110,7 @@ export default function HomePage() {
         </div>
         <div className="flex-1 flex justify-center items-center ml-5">
           <ProjectSection 
-            title = "Exchange Marathon Dashboard" 
+            title = "Marathon Dashboard" 
             description = "Exchange marathon is an event which organized by AIESEC International to rank their exchanges rates of each loacl committees." 
             image_link = "/projects/global_hackathon.webp" 
             image_alt = "Project 2" 
