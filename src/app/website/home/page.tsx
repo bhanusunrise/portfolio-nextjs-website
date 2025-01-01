@@ -27,7 +27,7 @@ export default function HomePage() {
 
         {/* Right Column */}
         <div className="flex-1 flex justify-center items-center pt-28">
-          <ImageSection image_path = "/profile.webp" />
+          <ImageSection image_path = "/profile.png" />
         </div>
       </div>
 
