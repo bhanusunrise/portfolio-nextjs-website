@@ -1,4 +1,5 @@
 import { AIESECER_DESCRIPTION, AIESECER_TITLE, HELLO_TITLE, HOME_DESCRIPTION, INTERN_DESCRIPTION, INTERN_TITLE, PASSIONATE_DESCRIPTION, PASSIONATE_TITLE, UNDERGRADUATE_DESCRIPTION, UNDERGRADUATE_TITLE } from "@/app/lib/contants";
+import AchievementSection from "@/components/achievement_section/achievement_section";
 import ImageSection from "@/components/image_section/image_section";
 import ProjectSection from "@/components/project_section/project_section";
 import SeeMoreBtn from "@/components/see_more_button/see_more_btn";
@@ -9,7 +10,7 @@ export default function HomePage() {
   return (
     <>
        {/* Home Section */}
-      <div className="flex flex-col md:flex-row sm:flex-row pb-40">
+      <div className="flex flex-col md:flex-row sm:flex-row pb-40 pt-28">
         {/* Left Column */}
         <div className="flex-1 pt-28 pl-40">
           <TitleSection title = "Welcome!" />
@@ -141,7 +142,12 @@ export default function HomePage() {
       </div>
 
       <div className="flex flex-col md:flex-row sm:flex-row justify-center items-center">
-          <div className="flex-1 flex justify-center items-center pl-20"></div>
+          <div className="flex-1 flex justify-center items-center pl-20 mt-16">
+            <AchievementSection 
+              title = "Second Runner's Up - Edify Intra Departmental Article Competition" 
+              text = "I was able to secure the second runner's up position in the Edify Intra Departmental Article Competition which was organized by the Department of Industrial Management, Faculty of Science, University of Kelaniya." 
+              image_link = "/projects/freelance.webp" />
+          </div>
       </div>
       
     </>
