@@ -13,9 +13,9 @@ export default function NavBar() {
 
   return (
     <>
-      <nav className="bg-gray-800 fixed top-0 w-full z-50">
+      <nav className="bg-gray-800 fixed top-0 w-full z-50 md:rounded-b-full opacity-40 hover:opacity-100">
         <div className="mx-auto px-2 sm:px-6 lg:px-8">
-          <div className="relative flex h-16 items-center justify-between">
+          <div className="relative flex h-32 items-center justify-between">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
               {/* Mobile menu button */}
               <button
@@ -58,50 +58,44 @@ export default function NavBar() {
                 </svg>
               </button>
             </div>
-            <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-              <div className="hidden sm:ml-6 sm:block">
-                <div className="flex space-x-4">
-                  <Link
-                    href={PAGE_BASE_URL + 'home'}
-                    className="rounded-md px-3 py-2 text-sm font-medium text-white"
-                    aria-current="page"
-                  >
-                    <h2 className="text-md">Pasindu Bhanuka</h2>
-                  </Link>
-                  <Link
-                    href={PAGE_BASE_URL + 'home'}
-                    className="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white"
-                    aria-current="page"
-                  >
-                    Home
-                  </Link>
-                  <Link
-                    href={PAGE_BASE_URL + 'about_me'}
-                    className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-                  >
-                    About Me
-                  </Link>
-                  <Link
-                    href={PAGE_BASE_URL + 'projects'}
-                    className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-                  >
-                    Projects
-                  </Link>
-                  <Link
-                    href={PAGE_BASE_URL + 'achievements'}
-                    className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-                  >
-                    Achievements
-                  </Link>
-                  <Link
-                    href={PAGE_BASE_URL + 'contact_me'}
-                    className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-                  >
-                    Contact Me
-                  </Link>
-                </div>
-              </div>
-            </div>
+<div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start md:justify-center">
+  <div className="hidden sm:ml-6 sm:block">
+    <div className="flex space-x-4">
+      <Link
+        href={PAGE_BASE_URL + 'home'}
+        className="rounded-md bg-gray-900 px-3 py-2 text-xl font-medium text-white"
+        aria-current="page"
+      >
+        Home
+      </Link>
+      <Link
+        href={PAGE_BASE_URL + 'about_me'}
+        className="rounded-md px-3 py-2 text-xl font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+      >
+        About Me
+      </Link>
+      <Link
+        href={PAGE_BASE_URL + 'projects'}
+        className="rounded-md px-3 py-2 text-xl font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+      >
+        Projects
+      </Link>
+      <Link
+        href={PAGE_BASE_URL + 'achievements'}
+        className="rounded-md px-3 py-2 text-xl font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+      >
+        Achievements
+      </Link>
+      <Link
+        href={PAGE_BASE_URL + 'contact_me'}
+        className="rounded-md px-3 py-2 text-xl font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+      >
+        Contact Me
+      </Link>
+    </div>
+  </div>
+</div>
+
           </div>
         </div>
 
