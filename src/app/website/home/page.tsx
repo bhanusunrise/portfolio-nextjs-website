@@ -144,10 +144,20 @@ export default function HomePage() {
       <div className="flex flex-col md:flex-row sm:flex-row justify-center items-center">
           <div className="flex-1 flex justify-center items-center pl-20 mt-16">
             <AchievementSection 
-              title = "Second Runner's Up - Edify Intra Departmental Article Competition" 
-              text = "I was able to secure the second runner's up position in the Edify Intra Departmental Article Competition which was organized by the Department of Industrial Management, Faculty of Science, University of Kelaniya." 
+              title = "Edify -Aticle Competition" 
+              text = "Second Runner's Up" 
               image_link = "/projects/freelance.webp" />
           </div>
+          
+      </div>
+      <div className="flex flex-col md:flex-row sm:flex-row justify-center items-center">
+          <div className="flex-1 flex justify-center items-center pl-20 mt-16">
+            <AchievementSection 
+              title = "Kick Start Week End" 
+              text = "Second Runner's Up" 
+              image_link = "/projects/freelance.webp" />
+          </div>
+          
       </div>
       
     </>
