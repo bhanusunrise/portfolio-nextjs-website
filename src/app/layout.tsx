@@ -13,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
 
-const tl = gsap.timeline();
+//const tl = gsap.timeline();
 
 const Line = ($el: Element) => {
   const $paths = $el.querySelectorAll<SVGPathElement>(".path");
